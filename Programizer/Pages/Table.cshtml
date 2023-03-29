@@ -1,0 +1,11 @@
+@page
+@model TableModel
+<button>Button</button>
+<div class="workout-table"></div>
+
+<script>console.log($('button').text)</script>
+
+<script type="text/babel" src="WorkoutTable.js"></script>
+<script type="text/babel">
+    ReactDOM.render(<WorkoutTable/>, document.querySelector('.workout-table'));
+</script>
