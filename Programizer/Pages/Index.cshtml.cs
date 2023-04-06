@@ -3,16 +3,22 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Programizer.Pages;
 
-public class IndexModel : PageModel
+// public class IndexModel : PageModel
+// {
+//     private readonly ILogger<IndexModel>? _logger;
+//     
+//     public string? WorkoutLabel { get; set; }
+//
+//     //public IndexModel(ILogger<IndexModel> logger)
+//     //{
+//     //    _logger = logger;
+//     //}
+//     
+//     public void OnGet()
+//     {
+//     }
+// }
+public class IndexModel
 {
-    private readonly ILogger<IndexModel> _logger;
-
-    public IndexModel(ILogger<IndexModel> logger)
-    {
-        _logger = logger;
-    }
-
-    public void OnGet()
-    {
-    }
+    public string? WorkoutLabel { get; init; }
 }

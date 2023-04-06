@@ -3,8 +3,51 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Hello world!</h1>
-    <p>First successful(?) attempt of hot swapping.</p>
+<div class="todays-workouts-container">
+    <div class="row">
+        <div class="workout-col col-9">
+            <div class="row todays-workouts workouts-container">
+                <div class="row single-workout" data-toggle="modal" data-target="#workout-modal">
+                    <div class="workout col-9">@Model.WorkoutLabel</div>
+                    <div class="additional-info col-3">
+                        <span class="muscle-group-container">
+                            <span class="circle-yellow" title="Biceps set count"></span>
+                            <label>3 set</label>
+                        </span>
+                        <span class="muscle-group-container">
+                            <span class="circle-red" title="Lats set count"></span>
+                            <label>4 set</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="row single-workout">
+                    <div class="workout col-9">Jogging</div>
+                    <div class="additional-info col-3"></div>
+                </div>
+            </div>
+            <div class="recommended-workouts-container workouts-container">
+                <div class="top-border"><h4>Recommended workouts</h4></div>
+                <div class="row single-workout">
+                    <div class="workout col-12">Don't skip leg day</div>
+                </div>
+            </div>
+        </div>
+        <div class="statistics text-center col-3">
+            <div class="statistics-container">
+                <h4 class="title-text">Statistics</h4>
+            </div>
+        </div>
+    </div>
 </div>
+
+<!--TODO: Add fade, remove display-->
+<div class="modal workout-modal" id="workout-modal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+    <div class="row modal-body">
+        <h4 class="title-text">Weight lifting</h4>
+    </div>
+        </div>
+    </div>
+</div>
+<script src="js/index.js"></script>

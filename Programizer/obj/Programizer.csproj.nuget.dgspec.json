@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Documents\\C# projects\\Programizer\\Programizer\\Programizer.csproj": {}
+    "D:\\C#projects\\programizerwebapp\\Programizer\\Programizer.csproj": {}
   },
   "projects": {
-    "Q:\\Documents\\C# projects\\Programizer\\Programizer\\Programizer.csproj": {
+    "D:\\C#projects\\programizerwebapp\\Programizer\\Programizer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Documents\\C# projects\\Programizer\\Programizer\\Programizer.csproj",
+        "projectUniqueName": "D:\\C#projects\\programizerwebapp\\Programizer\\Programizer.csproj",
         "projectName": "Programizer",
-        "projectPath": "Q:\\Documents\\C# projects\\Programizer\\Programizer\\Programizer.csproj",
-        "packagesPath": "C:\\Users\\Simon\\.nuget\\packages\\",
-        "outputPath": "Q:\\Documents\\C# projects\\Programizer\\Programizer\\obj\\",
+        "projectPath": "D:\\C#projects\\programizerwebapp\\Programizer\\Programizer.csproj",
+        "packagesPath": "C:\\Users\\ersij\\.nuget\\packages\\",
+        "outputPath": "D:\\C#projects\\programizerwebapp\\Programizer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Simon\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ersij\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -57,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\ersij\\.dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

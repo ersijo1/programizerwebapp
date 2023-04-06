@@ -1,11 +1,40 @@
 @page
 @model TableModel
-<button>Button</button>
-<div class="workout-table"></div>
+<button>Knapp</button>
+<div class="workout-table" data-name="wTable">
+    <table class="table">
+        <thead>
+        <th scope="col">
+            A
+        </th>
+        <th scope="col">
+            B
+        </th>
+        </thead>
+        <tbody>
+        <tr scope="row">
+            <td>
+                1
+            </td>
+            <td>
+                2
+            </td>
+        </tr>
+        <tr scope="row">
+            <td>
+                3
+            </td>
+            <td>
+                4
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
 
-<script>console.log($('button').text)</script>
-
-<script type="text/babel" src="WorkoutTable.js"></script>
-<script type="text/babel">
-    ReactDOM.render(<WorkoutTable/>, document.querySelector('.workout-table'));
+<script src="WorkoutTable.js"></script>
+<script>
+    ReactDOM.render("<WorkoutTable/>", $('.workout-table'));
+    console.log("a");
+    console.log($('.workout-table').data('name'));
 </script>

@@ -1,0 +1,30 @@
+Exercise ("static" and "dynamic") {
+List<MuscleGroup> focusParts
+List<MuscleGroup> secondaryParts
+string label
+//dynamic fields
+int sets, recommendedSets
+int reps, recommendedReps
+int rir, recommendedRir
+string notes
+}
+
+DayReport (with Defaults) {
+Date date
+Days day
+List<Workout> workouts, recommendedWorkouts 
+}
+
+Workout {
+List<Exercise> exercises
+string label
+}
+Config {
+//TBA...
+}
+
+
+Enum MuscleGroup, Days
+
+
+
