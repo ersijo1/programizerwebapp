@@ -1,14 +1,15 @@
 ﻿@page
 @model IndexModel
+
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Home Page";
 }
 <div class="todays-workouts-container">
     <div class="row">
         <div class="workout-col col-9">
             <div class="row todays-workouts workouts-container">
                 <div class="row single-workout" data-toggle="modal" data-target="#workout-modal">
-                    <div class="workout col-9">@Model.WorkoutLabel</div>
+                    <div class="workout col-9">Weight Lifting</div>
                     <div class="additional-info col-3">
                         <span class="muscle-group-container">
                             <span class="circle-yellow" title="Biceps set count"></span>

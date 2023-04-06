@@ -1,6 +1,6 @@
 namespace Programizer.Records;
 
-public class Workout
+public class SearchParameters
 {
     
 }

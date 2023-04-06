@@ -1,4 +1,4 @@
-namespace Programizer.Pages;
+namespace Programizer.General;
 
 public class Startup
 {
@@ -34,7 +34,7 @@ public class Startup
         {
             endpoints.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Home}/{action=Today}/{id?}");
         });
     }
 }
